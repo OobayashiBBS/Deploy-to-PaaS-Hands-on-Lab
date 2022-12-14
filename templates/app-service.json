@@ -16,14 +16,14 @@
     },
     "resources": [
         {
-            "type": "Microsoft.Web/serverfarms",
-            "apiVersion": "2022-03-01",
-            "name": "[variables('appServicePlan')]",
-            "location": "[resourceGroup().location]",
-            "sku": {
-                "name": "S1",
-                "tier": "Standard"
-            }
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2022-03-01",
+            "name": "[variables('appServicePlan')]",
+            "location": "[resourceGroup().location]",
+            "sku": {
+                "name": "S1",
+                "tier": "Standard"
+            }
         },
         {
         "type": "Microsoft.Web/sites",
